@@ -1,0 +1,93 @@
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 991px) {
+  .grid-2-col {
+    max-width: 800px;
+  }
+  * {
+    margin-top: 0px !important;
+  }
+  .col2 {
+    column-count: 2 !important;
+    column-gap: 10px;
+    margin: 30px 0 !important;
+  }
+  .row {
+    display: inline-block !important;
+  }
+  .cols {
+    break-inside: avoid;
+    margin-bottom: 35px !important;
+  }
+  .container1 {
+    max-width: 600px !important;
+    margin: auto;
+  }
+  .nav-bar-infor {
+    display: none;
+  }
+  #nav-bar h6,
+  #nav-bar span {
+    display: none;
+  }
+  .contai-img {
+    height: auto;
+  }
+  #nav-bar div {
+    width: 50px;
+  }
+  .fflex a {
+    padding: 15px 30px 15px 35px;
+    font-size: 12px;
+  }
+
+  .grid-3col {
+    display: block !important;
+    /*max-width: 700px !important;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: masonry;
+    height: auto;*/
+    column-count: 2;
+    break-inside: avoid;
+  }
+
+  .general-infor {
+    break-inside: avoid;
+    margin-bottom: 20px;
+  }
+  .title {
+    max-width: 659px;
+    margin: auto;
+  }
+  .grid-3cols {
+    max-width: 770px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: start;
+    margin: auto;
+  }
+  .card-infor-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  #certificate img {
+    width: 100%;
+    margin: 0 20px 20px 0;
+  }
+  .compartment::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 200px;
+    background-color: #ced4da;
+    position: absolute;
+    left: 100%;
+    top: 39px;
+  }
+}

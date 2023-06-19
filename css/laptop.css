@@ -1,0 +1,5 @@
+@media (max-width: 1199px) {
+  .grid-2-col {
+    max-width: 840px;
+  }
+}
